@@ -43,7 +43,7 @@ function registerUser() {
     };
 
     // Make API call
-    fetch('https://localhost:7240/api/Account/register', {
+    fetch('https://localhost:7010/api/Account/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
