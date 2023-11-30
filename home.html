@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="best website for music info and idols">
+    <meta name="keywords" content="music,hiphop,rock,classical,instruments,music information,idols">
+    <meta name="author" content="Tarek Alkhatib,Mahdi Abdallah">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Muziki</title>
+
+    <script
+      src="https://kit.fontawesome.com/f35a76eb3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css-first.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-top" id="home-id">
+      <nav class="bar">
+        <a href="home.html">
+          <img
+            src="./img/logoPNGMuziki.svg"
+            alt="logo img"
+            class="logo-img home"
+          />
+        </a>
+
+        <ul class="bar-sections">
+          <li><a href="#home-id" class="links-bar">Home</a></li>
+          <li><a href="#instruments" class="links-bar">Instruments</a></li>
+          <li><a href="#genre-id" class="links-bar">Genres</a></li>
+          <li><a href="#login-id" class="links-bar btn">Log in</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="sections-container">
+      <section class="muziki-header">
+        <div class="radient-black-header">
+          <div class="header-container">
+            <h3>Muziki</h3>
+            <div class="typed-class" id="genre-id">
+              <span class="header-description"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-body rock">
+        <div class="radient-black right">
+          <div class="description">
+            <h3>Rock</h3>
+            <p>
+              Driving, intense, energetic, and almost always loud, rock music
+              was the most popular form of music for decades before hip-hop went
+              mainstream. Dominating the airwaves for nearly 50 years, rock
+              spawned dozens of sub-genres.
+            </p>
+            <a href="rock.html" class="btn">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-body classical">
+        <div class="radient-black left">
+          <div class="description">
+            <h3>Classical music</h3>
+            <p>
+              Classical music is music that has been composed by musicians who
+              are trained in the art of writing music and written down in music
+              notation so that other musicians can play it.
+            </p>
+            <a href="classical.html" class="btn">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-body hiphop">
+        <div class="radient-black right">
+          <div class="description">
+            <h3>Hiphop</h3>
+            <p>
+              Hip hop music consists of a stylized rhythmic music that commonly
+              accompanies rapping, a rhythmic and rhyming speech that is
+              chanted. It developed as part of hip hop culture, a subculture
+              defined by four key stylistic elements.
+            </p>
+            <a href="hiphop.html" class="btn">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-body instrument" id="instruments">
+        <div class="radient-black left">
+          <div class="description">
+            <h3>Instruments</h3>
+            <p>
+              The history of musical instruments dates to the beginnings of
+              human culture. Cultures eventually developed composition and
+              performance of melodies for entertainment.
+            </p>
+            <a href="instruments.html" class="btn">Learn more</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="login-carousel" id="login-id">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active eminem"
+            style="background-image: url(./img/slide_1.jpg)"
+          >
+            <div class="text-container">
+              <h3>Who we are</h3>
+              <p>We are a small community that helps people enjoy music !</p>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="background-image: url(./img/slide_2.jpg)"
+          >
+            <div class="text-container">
+              <h3>Activities</h3>
+              <p>We launch concerts based on audience choices.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(./img/slide_3.jpg)"
+          >
+            <div class="text-container">
+              <h3>Events</h3>
+              <p>
+                Be a part of you events by logging in to attend your favorite
+                music type concert !
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="footer-log">
+        <div class="footer-box-log">
+          <div class="footer-container">
+            <h2 class="heading">SignUp Now!</h2>
+            <p class="text">
+              Enjoy our best features by a single click for free!
+            </p>
+
+            <form name="form" class="login">
+              <div>
+                <label>Full Name<br /></label>
+                <input id="full-name" type="text" placeholder="Marc Spector" name="full_name" required />
+              </div>
+
+              <div>
+                <label for="email">Email<br /></label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <!-- <div>
+                <label for="select-fav">Music Genre<br /></label>
+                <select id="select-fav" name="select_fav" required>
+                  <option disabled selected>Choose your favorite music type:</option>
+                  <option value="Rock">Rock music</option>
+                  <option value="Rock">HipHop music</option>
+                  <option value="Rock">Classical music</option>
+                </select>
+              </div> -->
+
+              <!-- <div>
+                <label for="address">Address<br /></label>
+                <input
+                  id="address"
+                  type="text"
+                  placeholder="Baabda, Beirut"
+                  name="address"
+                  required
+                />
+              </div> -->
+              <div>
+                <label for="password">Password<br /></label>
+                <input
+                  id="password"
+                  type="password"
+                  placeholder="password"
+                  name="password"
+                  required
+                />
+              </div>
+
+              <button type="button" class="btn" onclick="registerUser()">SignUp</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="more-info">
+        <div class="elements">
+          <h3>Muziki</h3>
+          <div class="logos">
+            <a href="https://ua.edu.lb/en/home" class="btn-footer"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://ua.edu.lb/en/home" class="btn-footer"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://ua.edu.lb/en/home" class="btn-footer"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://ua.edu.lb/en/home" class="btn-footer"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+
+          <p>Copyright © 2022<br />All rights reserved.</p>
+        </div>
+
+        <div class="elements">
+          <h3>About us</h3>
+
+          <ul>
+            <li>Developper Tarek Khatib.<br />(BS in CS)</li>
+            <li>Developper Mahdi Abdallah.<br />(BS in CS)</li>
+          </ul>
+        </div>
+
+        <div class="elements">
+          <h3>Contact us</h3>
+          <ul>
+            <li>tkhatib321x@gmail.com</li>
+            <li>Mahdiabdallah000@gmail.com.</li>
+          </ul>
+        </div>
+
+        <div class="elements">
+          <h3>Web info</h3>
+          <ul>
+            <li>Heart of music.</li>
+            <li>Unlimited knowledge and features.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="jscript.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

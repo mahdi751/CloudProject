@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.rock-background {
+  background: url("./img/rock_background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.classical-background {
+  background: url("./img/classical-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hiphop-background {
+  background: url("./img/hiphop_background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.instruments-background {
+  background: url("./img/instruments-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/* Header start */
+
+/* nav bar */
+.logo-img {
+  width: 70px;
+  transition: 0.2s;
+}
+
+.logo-img:hover {
+  transform: scale(1.2);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 100px;
+  background-color: rgb(24, 23, 23);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.bar-sections {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.links-bar:link,
+.links-bar:visited {
+  text-decoration: none;
+  color: deeppink;
+  padding: 5px;
+  border-radius: 100px;
+  transition: 0.2s;
+}
+
+.links-bar:hover {
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+}
+
+.btn:link,
+.btn:visited {
+  padding: 10px;
+  color: black;
+  background-color: deeppink;
+}
+
+.btn:hover {
+  padding: 10px;
+  color: white;
+}
+/* banners */
+.classical {
+  background: url("./img/classical-banner.jpg");
+  background-position: center;
+}
+.rock {
+  background: url("./img/rock_banner.jpg");
+  background-position: top;
+}
+
+.hiphop {
+  background: url("./img/hiphop-banner.jpg");
+  background-position: center;
+}
+
+.instruments {
+  background: url("./img/instruments-banner.jpg");
+  background-position: top;
+}
+
+.banner {
+  background-size: cover;
+}
+.banner-container {
+  height: 200px;
+  background: linear-gradient(
+    to bottom,
+    rgba(23, 23, 23, 1),
+    rgba(23, 23, 23, 0)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  text-shadow: 0px 0px 10px deeppink;
+  margin-top: 100px;
+}
+
+/* Header end */
+
+/* Bookmark start */
+.container {
+  background-color: rgba(23, 23, 23);
+  display: flex;
+  width: 100rem;
+  gap: 40px;
+  margin: 0 auto;
+  height: 1750px;
+}
+
+#bookmarksection {
+  width: 300px;
+  padding-top: 100px;
+}
+
+.bookmark {
+  width: 300px;
+  background-color: rgb(53, 50, 50);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid rgb(77, 74, 74);
+  border-bottom: 4px solid rgb(77, 74, 74);
+}
+
+.links,
+.sub-links {
+  color: rgb(231, 156, 226);
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
+
+.sub-links {
+  color: pink;
+}
+
+.first-mark {
+  margin: 20px 0;
+  margin-left: 30px;
+  color: rgb(231, 156, 226);
+}
+
+.second-mark {
+  margin-left: 20px;
+  color: pink;
+}
+/* book mark end */
+/* body container */
+.text-container {
+  margin: 30px;
+  width: 1200px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.text-container h1 {
+  color: white;
+  text-shadow: 0px 0px 10px deeppink;
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  color: rgb(189, 29, 189);
+  text-shadow: 0px 0px 10px rgb(255, 255, 255, 0.1);
+  font-size: 1.3rem;
+}
+
+.text-container h2 {
+  color: rgb(236, 162, 208);
+  text-shadow: 0px 0px 10px deeppink;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+/* text and images container (inside of text container) */
+.text-image-flex {
+  display: flex;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.images {
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgb(255, 255, 255, 0.1);
+}
+
+.images-container img {
+  margin-bottom: 5rem;
+}
+/* Idols */
+.idols img {
+  border-radius: 12px;
+  width: 100%;
+  height: 50%;
+}
+
+.idols figure {
+  transition: 0.2s;
+  border-radius: 12px;
+  background-color: black;
+}
+
+.idols figure:hover {
+  transform: scale(1.03);
+}
+
+.idols {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  justify-content: center;
+  column-gap: 80px;
+  row-gap: 20px;
+}
+
+.idols h3 {
+  font-size: 1.2rem;
+  color: rgb(236, 162, 208);
+  text-shadow: 0px 0px 10px deeppink;
+}
+
+.idols span {
+  color: rgb(189, 29, 189);
+}
+
+.artist-box {
+  padding: 32px;
+  background-color: black;
+  height: 60%;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.artist {
+  box-shadow: 0px 20px 30px rgba(255, 255, 255, 0.1);
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.artist img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.artist-details li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+.artist-details li:last-child {
+  margin-bottom: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* Footer */
+.final {
+  background-color: black;
+  height: auto;
+  padding: 100px 0;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.btn-footer {
+  font-size: 28px;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn-footer:hover {
+  color: pink;
+}
+
+.more-info {
+  margin: 0 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.more-info h3 {
+  margin-bottom: 2rem;
+  color: deeppink;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+.final li {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.elements ul {
+  padding-left: 0;
+}

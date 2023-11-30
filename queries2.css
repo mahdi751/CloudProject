@@ -1,0 +1,346 @@
+@media (max-width: 1600px) {
+  .container {
+    width: 1400px;
+    height: auto;
+  }
+
+  .idols-text-flex {
+    width: 1060px;
+  }
+
+  .idols {
+    gap: 10px;
+  }
+
+  .images {
+    width: 100%;
+  }
+  .images-container {
+    width: 300px;
+  }
+
+  .text-container {
+    width: auto;
+  }
+  .text {
+    width: 650px;
+  }
+  .idols {
+    width: auto;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 1200px;
+  }
+
+  .text-container {
+    width: auto;
+  }
+  .text {
+    width: auto;
+  }
+
+  .images-container {
+    width: auto;
+  }
+
+  .bookmark {
+    width: 300px;
+  }
+
+  .artist {
+    height: 500px;
+  }
+
+  .idols-text-flex {
+    width: 800px;
+  }
+
+  .final {
+    padding: 20px;
+  }
+
+  .more-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .final li {
+    font-size: 14px;
+  }
+
+  .artist-details li {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 1001px;
+    gap: 25px;
+  }
+
+  .bookmark {
+    width: 240px;
+  }
+
+  #bookmarksection {
+    width: 240px;
+  }
+
+  .idols-text-flex {
+    width: 700px;
+  }
+
+  .final {
+    padding: 15px;
+  }
+
+  .more-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .final li {
+    font-size: 12px;
+  }
+
+  .idols img {
+    height: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+
+  .text {
+    width: 300px;
+  }
+
+  .images-container {
+    width: 165px;
+  }
+  .idols-text-flex {
+    width: 575px;
+  }
+
+  .bookmark {
+    width: 200px;
+  }
+
+  #bookmarksection {
+    width: 200px;
+  }
+
+  .first-mark {
+    font-size: 12px;
+  }
+
+  .banner-container {
+    height: 140px;
+  }
+
+  .text-container h1 {
+    font-size: 1.1rem;
+  }
+
+  .text-container h2 {
+    font-size: 1rem;
+  }
+  .text-container p {
+    font-size: 10px;
+  }
+
+  .artist {
+    height: 380px;
+  }
+
+  .artist-box {
+    padding: 10px;
+  }
+
+  .artist-details li {
+    font-size: small;
+  }
+
+  .idols h3 {
+    font-size: 0.9rem;
+  }
+
+  .idols span {
+    font-size: 12px;
+  }
+  .more-info {
+    margin: 0 7px;
+  }
+
+  .more-info h3 {
+    font-size: 1rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .final li {
+    font-size: 10px;
+  }
+
+  .btn-footer {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) {
+  .bar-sections {
+    gap: 20px;
+  }
+  .container {
+    width: 601px;
+  }
+
+  .idols-text-flex {
+    width: 345px;
+  }
+
+  .banner-container {
+    font-size: 2rem;
+    height: 100px;
+  }
+
+  .images:last-child {
+    margin: 0;
+  }
+  .idols {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    height: 2100px;
+  }
+
+  .bookmark {
+    width: 150px;
+  }
+
+  #bookmarksection {
+    width: 150px;
+  }
+
+  .images:last-child {
+    margin-bottom: 30px;
+  }
+  .text {
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .text-container h2 {
+    font-size: 1.8rem;
+  }
+  .text-container p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .idols span {
+    font-size: 0.8rem;
+  }
+  .artist-details li {
+    margin-bottom: 16px;
+  }
+  .idols h3 {
+    font-size: 1.3rem;
+  }
+
+  .artist {
+    height: auto;
+  }
+
+  .more-info {
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .more-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .logos {
+    font-size: 24px;
+  }
+
+  .final li {
+    font-size: 12px;
+  }
+
+  .images-container {
+    width: 260px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: block;
+    width: 400px;
+    gap: 0;
+    height: auto;
+  }
+
+  .idols {
+    margin: 0 20px;
+  }
+  .idols-text-flex {
+    width: auto;
+    padding-bottom: 20px;
+  }
+
+  .text-container {
+    margin: 0 30px;
+    width: auto;
+  }
+
+  .text {
+    width: auto;
+  }
+
+  .bar img {
+    display: none;
+  }
+  .bookmark {
+    display: none;
+  }
+
+  .bar-sections {
+    gap: 10px;
+  }
+
+  .bar {
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .more-info {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+}
